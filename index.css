@@ -1,0 +1,32 @@
+nav {
+    border: 1px solid #bca9ad;
+    background-color: #bca9ad;
+}
+
+body {
+    background-color: #838c8a;
+}
+
+
+.sites ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.site {
+    display: inline-block;
+}
+
+.site a::after {
+    display: inline-block;
+    color: #000;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+}
+
+nav li {
+    display: inline-block;
+    height: auto;
+    padding: auto  ;
+}
