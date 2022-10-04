@@ -42,34 +42,3 @@ nav li {
 }
 
 /* images */
-.row {
-    grid-row: 1;
-}
-
-
-
-.column {
-    
-    grid-column: 1;
-}
-
-.column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: auto;
-    grid-column: 1;
-}
-
-
-@media screen and (max-width: 800px) {
-    .column {
-        grid-column: 1;
-    }
-}
-
-
-@media screen and (max-width: 600px) {
-    .column {
-        grid-column: 1;
-    }
-}
