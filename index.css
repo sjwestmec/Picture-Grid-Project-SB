@@ -1,3 +1,4 @@
+/* navbar and backround*/
 nav {
     border: 1px solid #bca9ad;
     background-color: #bca9ad;
@@ -7,6 +8,15 @@ body {
     background-color: #838c8a;
 }
 
+.row {
+    
+    grid-template-rows: 25% 100px auto;
+}
+
+.column{
+grid-template-columns: 40px 50px auto 50px 40px;
+
+}
 
 .sites ol {
     list-style-type: none;
@@ -29,4 +39,37 @@ nav li {
     display: inline-block;
     height: auto;
     padding: auto  ;
+}
+
+/* images */
+.row {
+    grid-row: 1;
+}
+
+
+
+.column {
+    
+    grid-column: 1;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: auto;
+    grid-column: 1;
+}
+
+
+@media screen and (max-width: 800px) {
+    .column {
+        grid-column: 1;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .column {
+        grid-column: 1;
+    }
 }
