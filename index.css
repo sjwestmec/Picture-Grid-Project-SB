@@ -44,67 +44,78 @@ nav li {
 /* images */
 .container{
     display: grid;
-        grid-template-columns: 1000px 1000px 1000px 1000px;
-        grid-template-rows: 1000px 1000px 1000px 1000px 1000px;
+        grid-template-columns: 1000px 1000px 1000px 1000px 1000px;
+        grid-template-rows: 1000px 1000px 1000px 1000px 1000px 1000px 1000px;
         gap: 20px;
+        grid-template-areas:
+                ". . . . ."
+                ". . . . . "
+                ". . . . ."
+                ". . . . ."
+                ". . . . ."
+                ". . . . ."
+                ". . . . .";
+}
+.logo{
+    grid-area: auto;
 }
 .image1{
-
+    grid-area: auto;
 }
 .image2 {
-
+    grid-area: auto;
 }
 .image3 {
-
+    grid-area: auto;
 }
 .image4 {
-
+    grid-area: auto;
 }
 .image5 {
-
+    grid-area: auto;
 }
 .image6 {
-
+    grid-area: auto;
 }
 .image7 {
-
+    grid-area: auto;
 }
 .image8 {
-
+    grid-area: auto;
 }
 .image9 {
-
+    grid-area: auto;
 }
 .image10 {
-
+    grid-area: auto;
 }
 .image11 {
-
+    grid-area: auto;
 }
 .image12 {
-
+    grid-area: auto;
 }
 .image13 {
-
+    grid-area: auto;
 }
 .image14 {
-
+    grid-area: auto;
 }
 .image15 {
-
+    grid-area: auto;
 }
 .image16 {
-
+    grid-area: auto;
 }
 .image17 {
-
+    grid-area: auto;
 }
 .image18 {
-
+    grid-area: auto;
 }
 .image19 {
-
+    grid-area: auto;
 }
 .image20 {
-
+    grid-area: auto;
 }
