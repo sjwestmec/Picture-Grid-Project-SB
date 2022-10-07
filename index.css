@@ -1,6 +1,5 @@
 /* navbar and backround*/
 nav {
-    border: 1px solid #bca9ad;
     background-color: #bca9ad;
 }
 
@@ -8,114 +7,85 @@ body {
     background-color: #838c8a;
 }
 
-.row {
-    
-    grid-template-rows: 25% 100px auto;
-}
 
-.column{
-grid-template-columns: 40px 50px auto 50px 40px;
-
-}
-
-.sites ol {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-.site {
-    display: inline-block;
-}
-
-.site a::after {
-    display: inline-block;
-    color: #000;
-    content: '>';
-    font-size: 80%;
-    font-weight: bold;
-}
-
-nav li {
-    display: inline-block;
-    height: auto;
-    padding: auto  ;
-}
 
 /* images */
 .container{
     display: grid;
-        grid-template-columns: 1000px 1000px 1000px 1000px 1000px;
-        grid-template-rows: 1000px 1000px 1000px 1000px 1000px 1000px 1000px;
-        gap: 20px;
+    background-color: white;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 5px;
         grid-template-areas:
-                ". . . . ."
-                ". . . . . "
-                ". . . . ."
-                ". . . . ."
-                ". . . . ."
-                ". . . . ."
-                ". . . . .";
+                "a a a a a b ."
+                "a a a a a c  ."
+                "a a a a a d ."
+                "a a a a a d ."
+                "e . . f g h  ."
+                "i j j . . . ."
+                "m n . o o . ."
+                "t . . q r u u";
 }
 .logo{
-    grid-area: auto;
+    grid-area: a;
 }
 .image1{
-    grid-area: auto;
+    grid-area: b;
 }
 .image2 {
-    grid-area: auto;
+    grid-area: c;
 }
 .image3 {
-    grid-area: auto;
+    grid-area: d;
 }
 .image4 {
-    grid-area: auto;
+    grid-area: e;
 }
 .image5 {
-    grid-area: auto;
+    grid-area: f;
 }
 .image6 {
-    grid-area: auto;
+    grid-area: g;
 }
 .image7 {
-    grid-area: auto;
+    grid-area: h;
 }
 .image8 {
-    grid-area: auto;
+    grid-area: i;
 }
 .image9 {
-    grid-area: auto;
+    grid-area: j;
 }
 .image10 {
-    grid-area: auto;
+    grid-area: k;
 }
 .image11 {
-    grid-area: auto;
+    grid-area: l;
 }
 .image12 {
-    grid-area: auto;
+    grid-area: m;
 }
 .image13 {
-    grid-area: auto;
+    grid-area: n;
 }
 .image14 {
-    grid-area: auto;
+    grid-area: o;
 }
 .image15 {
-    grid-area: auto;
+    grid-area: p;
 }
 .image16 {
-    grid-area: auto;
+    grid-area: q;
 }
 .image17 {
-    grid-area: auto;
+    grid-area: r;
 }
 .image18 {
-    grid-area: auto;
+    grid-area: s;
 }
 .image19 {
-    grid-area: auto;
+    grid-area: t;
 }
 .image20 {
-    grid-area: auto;
+    grid-area: u;
 }
