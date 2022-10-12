@@ -1,27 +1,40 @@
 /* navbar and backround*/
 nav {
     background-color: #bca9ad;
+    list-style-type: none;
+    padding-left: 0%;
+    text-align: left;
+
 }
 body {
     background-color: #838c8a;
 }
+img{
+    width: fit-content;
+}
+.sites {
+    margin: 0%;
+    padding-left: 0%;
+    background-color: #bca9ad;
+    
+}
 
 /* images */
 .container{
+
     display: grid;
     background-color: white;
-        grid-template-columns: repeat(50px 50px 50px 50px 50px) ;
+        grid-template-columns: repeat(5,20%) ;
         grid-template-rows: auto ;
-        grid-gap: 5px;
         grid-template-areas:
                 "a a a a b"
                 "a a a a c"
                 "a a a a d"
-                "e f f g h"
+                "e . f g h "
                 "i j j k l"
-                "m n . o o"
-                "t . . q r"
-                ". . . . .";
+                "i n o o p"
+                "m n q r s"
+                "t u . . .";
 }
 .logo{
     grid-area: a;
