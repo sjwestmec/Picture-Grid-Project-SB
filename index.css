@@ -2,29 +2,26 @@
 nav {
     background-color: #bca9ad;
 }
-
 body {
     background-color: #838c8a;
 }
-
-
 
 /* images */
 .container{
     display: grid;
     background-color: white;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        gap: 5px;
+        grid-template-columns: repeat(50px 50px 50px 50px 50px) ;
+        grid-template-rows: auto ;
+        grid-gap: 5px;
         grid-template-areas:
-                "a a a a a b ."
-                "a a a a a c  ."
-                "a a a a a d ."
-                "a a a a a d ."
-                "e . . f g h  ."
-                "i j j . . . ."
-                "m n . o o . ."
-                "t . . q r u u";
+                "a a a a b"
+                "a a a a c"
+                "a a a a d"
+                "e f f . ."
+                "i j j k l"
+                "m n . o o"
+                ". . . . ."
+                "t . . q r";
 }
 .logo{
     grid-area: a;
