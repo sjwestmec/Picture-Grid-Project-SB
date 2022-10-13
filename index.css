@@ -99,3 +99,8 @@ img{
 .image20 {
     grid-area: u;
 }
+
+@media screen and (min-width: 480px) {
+    
+    
+    }
