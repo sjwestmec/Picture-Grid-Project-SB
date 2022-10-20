@@ -100,7 +100,131 @@ img{
     grid-area: u;
 }
 
-@media screen and (min-width: 480px) {
-    
+@media screen and (min-width: 400px) {
+    /* navbar and backround*/
+    nav {
+        background-color: tan;
+        list-style-type: none;
+        padding-left: 0%;
+        text-align: left;
     
     }
+    
+    body {
+        background-color: white;
+    }
+    
+    img {
+        width: fit-content;
+    }
+    
+    .sites {
+        margin: 0%;
+        padding-left: 0%;
+        background-color: white;
+    
+    }
+    
+        /* images */
+    .container {
+    
+            display: grid;
+            background-color: white;
+            grid-template-columns: repeat(5, 20%);
+            grid-template-rows: auto;
+            grid-template-areas:
+                "a a a a b"
+                "a a a a c"
+                "a a a a d"
+                "e . f g h "
+                "i j j k l"
+                "i n o o p"
+                "m n q r s"
+                "t u . . .";
+    }
+    
+    .logo {
+        grid-area: a;
+    }
+    
+    .image1 {
+        grid-area: b;
+    }
+    
+    .image2 {
+        grid-area: c;
+    }
+    
+    .image3 {
+        grid-area: d;
+    }
+    
+    .image4 {
+        grid-area: e;
+    }
+    
+    .image5 {
+        grid-area: f;
+    }
+    
+    .image6 {
+        grid-area: g;
+    }
+    
+    .image7 {
+        grid-area: h;
+    }
+    
+    .image8 {
+        grid-area: i;
+    }
+    
+    .image9 {
+        grid-area: j;
+    }
+    
+    .image10 {
+        grid-area: k;
+    }
+    
+    .image11 {
+        grid-area: l;
+    }
+    
+    .image12 {
+        grid-area: m;
+    }
+    
+    .image13 {
+        grid-area: n;
+    }
+    
+    .image14 {
+        grid-area: o;
+    }
+    
+    .image15 {
+        grid-area: p;
+    }
+    
+    .image16 {
+        grid-area: q;
+    }
+    
+    .image17 {
+        grid-area: r;
+    }
+    
+    .image18 {
+        grid-area: s;
+    }
+    
+    .image19 {
+        grid-area: t;
+    }
+    
+   .image20 {
+        grid-area: u;
+    }
+    
+}
